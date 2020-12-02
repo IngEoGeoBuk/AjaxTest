@@ -2,9 +2,9 @@
 <html lang="en">
 <body>
     <input type="button" value="fetch" onclick="
-        fetch('css').then(response => {
-            response.text().then(text => {
-                alert(test);
+        fetch('css').then(function(response){
+            response.text().then(function(text) {
+                alert(text);
             })
         })
     ">
